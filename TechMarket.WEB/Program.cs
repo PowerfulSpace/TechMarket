@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using TechMarket.WEB.Definitions.Base;
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDefinitions(builder, typeof(Program));
+
 
 var app = builder.Build();
+app.UseDefinitions();
