@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TechMarket.Domain\TechMarket.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
