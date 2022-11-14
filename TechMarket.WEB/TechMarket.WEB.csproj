@@ -10,4 +10,11 @@
     <ProjectReference Include="..\TechMarket.Service\TechMarket.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Definitions\Base\Interfaces\" />
+    <Folder Include="Definitions\Common\" />
+    <Folder Include="Definitions\DbContext\" />
+    <Folder Include="Definitions\DependencyInjection\" />
+  </ItemGroup>
+
 </Project>
