@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechMarket.Service", "TechM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechMarket.WEB", "TechMarket.WEB", "{B4E5F430-F279-47CD-B6E8-9E2D948956B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMarket.WEB", "TechMarket.WEB\TechMarket.WEB.csproj", "{60EF5309-836F-4871-B74C-33FEE55DD7A4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60EF5309-836F-4871-B74C-33FEE55DD7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EF5309-836F-4871-B74C-33FEE55DD7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EF5309-836F-4871-B74C-33FEE55DD7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EF5309-836F-4871-B74C-33FEE55DD7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60EF5309-836F-4871-B74C-33FEE55DD7A4} = {B4E5F430-F279-47CD-B6E8-9E2D948956B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9F3F8F5-5AB4-486F-861D-AAA97808246E}
